@@ -1,0 +1,74 @@
+Top Key Points to Search in JavaScript Files
+
+1. API Keys / Secrets
+REACT_APP_
+API_KEY
+SECRET_KEY
+ACCESS_TOKEN
+AUTH_TOKEN
+JWT
+BEARER
+client_secret
+client_id
+aws_access_key_id
+aws_secret_access_key
+firebaseConfig
+google_api_key
+stripe_public_key
+
+2. Endpoints & URLs
+apiUrl
+baseUrl
+endpoint
+.graphql
+.json
+/v1/
+/auth/
+appsync (for AWS GraphQL)
+cognito (for AWS Cognito)
+
+3. Developer & Build Info
+package.json
+scripts
+webpack
+env
+NODE_ENV
+process.env
+debug=true
+loglevel
+
+4. Authentication/Auth Flow
+login()
+logout()
+authHeader
+Authorization
+Bearer
+JWT.decode
+getToken()
+setToken
+
+5. Cloud Services Usage
+aws
+gcp
+firebase
+s3.amazonaws.com
+bucket
+cloudfront
+amplify
+appsync
+cognito
+
+6. Payment Integrations
+stripe
+paypal
+razorpay
+public_key
+merchant_id
+
+7. Security / Misconfig
+cors
+headers.set('Access-Control-Allow-Origin'
+x-api-key
+authToken
+adminToken
+bypass
